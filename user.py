@@ -10,6 +10,8 @@ class User:
         self.username = data['username']
         self.created_at = data['created-at']
         self.updated_at = data['updated-at']
+        self.company = None
+        self.note = None
     @classmethod
     def get_all_users(cls):
         query = "SELECT * FROM user;"
