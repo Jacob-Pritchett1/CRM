@@ -15,5 +15,5 @@ class Company:
     results = connectToMySQL('crm_db').query_db(query)
     companies = []
     for company in results:
-      companies.append(cls(user))
+      companies.append(cls(company))
     return companies
