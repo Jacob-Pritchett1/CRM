@@ -5,3 +5,11 @@
     max-height: 80px;
     width: auto;
 }
+.nav-pills li a:hover {
+    background-color: rgb(255, 140, 140);
+}
+.flex-wrap{
+    height: 900px;
+    width:200px;
+    background-color: rgb(255, 226, 172);
+}
