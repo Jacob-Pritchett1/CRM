@@ -52,41 +52,62 @@
             </form>
         </div>
     </nav>
-    <div class="container-fluid custom-container">
-        <div class="row">
-            <div class="flex-wrap">
-                <div class="bg-light text-decoration-none mt-1 align-items-center text-black">
-                    <a class="d-flex text-decoration-none align-items-center">
-                        <h2>GrassRoot Menu</h2>
-                    </a>
-                    <ul class="nav nav-pills flex-column">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link text-black">
-                                <i class="fs-5 fa fa-guage"></i><span class="fs-4 ms-3 d-none d-sm-inline">Dashboard</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link text-black">
-                                <i class="fs-5 fa fa-house"></i><span class="fs-4 ms-3 d-none d-sm-inline">Home</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link text-black">
-                                <i class="fs-5 fa fa-users"></i><span class="fs-4 ms-3 d-none d-sm-inline">Companies</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link text-black">
-                                <i class="fs-5 fa fa-clipboard"></i><span class="fs-4 ms-3 d-none d-sm-inline">Analytics</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link text-black">
-                                <i class="fs-5 fa fa-grid-2"></i><span class="fs-4 d-none ms-3 d-sm-inline">Orders</span>
-                            </a>
-                        </li>
-                    </ul>
+    <div class="sidebar">
+        <header>
+            <div class="image-text">
+                <!-- <span class="image">
+                    <img src="/static/CRMlogo-final.png" alt="GCRM Logo">
+                </span> -->
+                <div class="text logo-text">
+                    <span class="name">Name</span>
+                    <span class="profession">Profession</span>
                 </div>
+            </div>
+            <i class="bx bx-chevron-right toggle"></i>
+        </header>
+        <section class="home">
+            <div class="text">Dashboard Sidebar</div>
+        </section>
+        <div class="menu-bar">
+            <div class="menu">
+                <li class="search-box">
+                    <i class="bx bx-search icon"></i>
+                    <input type="text" placeholder="search">
+                </li>
+                <ul class="menu-links">
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class="bx bx-home-alt icon"></i>
+                            <span class="text nav-text">Dashboard</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class="bx bx-bar-chart-alt-2 icon"></i>
+                            <span class="text nav-text">Sales</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class="bx bx-home-alt icon"></i>
+                            <span class="text nav-text">My Analytics</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class="bx bx-home-alt icon"></i>
+                            <span class="text nav-text">More...</span>
+                        </a>
+                    </li>
+                    <div class="bottom-content-sidebar">
+                        <li class="">
+                            <a href="">
+                                <i class="bx bx-log-out icon"></i>
+                                <span class="text nav-text">Logout</span>
+                            </a>
+                        </li>
+                    </div>
+                </ul>
             </div>
         </div>
     </div>
