@@ -1,15 +1,12 @@
-.navbar {
-    background-color: orange;
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 5px solid black;
 }
-.navbar-brand img {
-    max-height: 80px;
-    width: auto;
+.branding {
+    display:inline-block;
 }
-.nav-pills li a:hover {
-    background-color: rgb(255, 140, 140);
-}
-.flex-wrap{
-    height: 900px;
-    width:200px;
-    background-color: rgb(255, 226, 172);
+.branding img{
+    width: 50px;
+    height: 50px;
 }
